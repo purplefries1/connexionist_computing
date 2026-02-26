@@ -1,0 +1,3886 @@
+XOR with bias, weight initialisations / sqrt(n), gradient update using the mean of all gradients over the epoch
+Summary sorted by accuracy at the end of the file
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5124249696191213
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.41512520432783795 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.43602818874391214 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.40866828607286354 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4298586648488317 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5448845082153324
+Error at epoch 2 is 0.5448761825728639
+Error at epoch 3 is 0.5448678582060805
+Error at epoch 4 is 0.544859535114885
+Error at epoch 5 is 0.5448512132991798
+Error at epoch 6 is 0.5448428927588674
+Error at epoch 7 is 0.5448345734938503
+Error at epoch 8 is 0.5448262555040314
+Error at epoch 9 is 0.5448179387893128
+Error at epoch 10 is 0.544809623349597
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.6485377127694194 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.636905110429118 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.6617732176539899 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.6502047357231081 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5087626551284173
+Error at epoch 100 is 0.5085792171975392
+Error at epoch 200 is 0.5083978544193043
+Error at epoch 300 is 0.5082203607751525
+Error at epoch 400 is 0.5080466586820487
+Error at epoch 500 is 0.5078766718934759
+Error at epoch 600 is 0.5077103254861682
+Error at epoch 700 is 0.5075475458464964
+Error at epoch 800 is 0.5073882606565415
+Error at epoch 900 is 0.5072323988798811
+Error at epoch 1000 is 0.5070798907471161
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4358850993937698 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4577833692913521 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4255453635027611 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4473968494009688 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 2000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5011400432361699
+Error at epoch 200 is 0.5011224564105405
+Error at epoch 400 is 0.501105596459501
+Error at epoch 600 is 0.5010895143418266
+Error at epoch 800 is 0.5010741724346001
+Error at epoch 1000 is 0.5010595349296944
+Error at epoch 1200 is 0.5010455677469393
+Error at epoch 1400 is 0.501032238451373
+Error at epoch 1600 is 0.5010195161743931
+Error at epoch 1800 is 0.5010073715386317
+Error at epoch 2000 is 0.5009957765863814
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4971007151153903 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4926928100087418 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4888291028521066 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.48603091241083546 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5020044353260696
+Error at epoch 1000 is 0.5017322458629808
+Error at epoch 2000 is 0.501516666122454
+Error at epoch 3000 is 0.5013460544742059
+Error at epoch 4000 is 0.5012109491720794
+Error at epoch 5000 is 0.5011038658653354
+Error at epoch 6000 is 0.5010188898549229
+Error at epoch 7000 is 0.5009513502745122
+Error at epoch 8000 is 0.5008975605783738
+Error at epoch 9000 is 0.5008546123602305
+Error at epoch 10000 is 0.5008202118617623
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4998324349249423 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5067075496801751 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.47828822118067615 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4860938978191878 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5041835855771096
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.45977159918152344 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.45907431457169817 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.44996117308907496 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.449237002432449 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5083212748662835
+Error at epoch 2 is 0.5083088112665091
+Error at epoch 3 is 0.5082963735635488
+Error at epoch 4 is 0.5082839617051857
+Error at epoch 5 is 0.5082715756392976
+Error at epoch 6 is 0.5082592153138572
+Error at epoch 7 is 0.5082468806769317
+Error at epoch 8 is 0.508234571676683
+Error at epoch 9 is 0.5082222882613672
+Error at epoch 10 is 0.5082100303793349
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5759011734656999 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5498960568173837 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5565390360080025 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.534305388430286 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.546837469239866
+Error at epoch 100 is 0.5381543934870315
+Error at epoch 200 is 0.5308290248884642
+Error at epoch 300 is 0.5247908768489234
+Error at epoch 400 is 0.5198645924569539
+Error at epoch 500 is 0.5158792575783275
+Error at epoch 600 is 0.5126772034579953
+Error at epoch 700 is 0.5101186241024074
+Error at epoch 800 is 0.5080831383468235
+Error at epoch 900 is 0.5064693616012927
+Error at epoch 1000 is 0.5051933376847556
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.46368906827407885 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.44262241431449884 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.46237400152627073 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.44231780325976794 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 2000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5283239695669865
+Error at epoch 200 is 0.5191365136620408
+Error at epoch 400 is 0.5128423460508773
+Error at epoch 600 is 0.5086377128372509
+Error at epoch 800 is 0.5058641252358738
+Error at epoch 1000 is 0.5040489352721172
+Error at epoch 1200 is 0.5028664347620555
+Error at epoch 1400 is 0.502097815681079
+Error at epoch 1600 is 0.5015984063075718
+Error at epoch 1800 is 0.5012734967192307
+Error at epoch 2000 is 0.5010614640727089
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4960567449266723 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.48936538555338405 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4837551566376633 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.478322574335592 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.534696849351337
+Error at epoch 1000 is 0.5033854386167621
+Error at epoch 2000 is 0.5002714980222734
+Error at epoch 3000 is 0.4999836123384846
+Error at epoch 4000 is 0.49994436227518024
+Error at epoch 5000 is 0.4999267427110371
+Error at epoch 6000 is 0.4999109416201317
+Error at epoch 7000 is 0.4998952124476409
+Error at epoch 8000 is 0.4998793829962032
+Error at epoch 9000 is 0.49986341761407493
+Error at epoch 10000 is 0.49984729194156147
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4936568216274445 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5091170698567986 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49173464179814935 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5066534994077014 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5001939041780723
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5087729839851098 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5004614149578765 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5107422889276066 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5026163336554554 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5004979934501976
+Error at epoch 2 is 0.5004821621413592
+Error at epoch 3 is 0.5004666868554358
+Error at epoch 4 is 0.5004515595996967
+Error at epoch 5 is 0.5004367725589717
+Error at epoch 6 is 0.5004223180917906
+Error at epoch 7 is 0.5004081887266014
+Error at epoch 8 is 0.5003943771580666
+Error at epoch 9 is 0.5003808762434392
+Error at epoch 10 is 0.5003676789990119
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5099752764381473 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5147287623640848 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.519911030054479 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5240812737305891 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5002759926577715
+Error at epoch 100 is 0.5000197867593741
+Error at epoch 200 is 0.4999877980080447
+Error at epoch 300 is 0.49998268173631844
+Error at epoch 400 is 0.49998070124908867
+Error at epoch 500 is 0.4999790927781287
+Error at epoch 600 is 0.49997753403214606
+Error at epoch 700 is 0.4999759868459829
+Error at epoch 800 is 0.4999744461177227
+Error at epoch 900 is 0.49997291059863835
+Error at epoch 1000 is 0.4999713794957005
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4995917380061192 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4998384332103803 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5005202871934711 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5007087450067573 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 2000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5189369166924143
+Error at epoch 200 is 0.4997633507905562
+Error at epoch 400 is 0.49930873623936467
+Error at epoch 600 is 0.49917698893855056
+Error at epoch 800 is 0.4990385620361403
+Error at epoch 1000 is 0.4988858696920514
+Error at epoch 1200 is 0.4987162964237608
+Error at epoch 1400 is 0.4985268898756229
+Error at epoch 1600 is 0.4983141991713821
+Error at epoch 1800 is 0.498074184431976
+Error at epoch 2000 is 0.4978021153176665
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4819582706284284 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5095148155085303 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49156654043988873 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5140401320764025 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5004134634236685
+Error at epoch 1000 is 0.500172717490364
+Error at epoch 2000 is 0.5001216232248479
+Error at epoch 3000 is 0.5000803553643787
+Error at epoch 4000 is 0.5000457763228693
+Error at epoch 5000 is 0.5000156594149812
+Error at epoch 6000 is 0.49998833476737425
+Error at epoch 7000 is 0.49996246603614153
+Error at epoch 8000 is 0.49993689862563234
+Error at epoch 9000 is 0.499910545210532
+Error at epoch 10000 is 0.49988228652190575
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5031043495058286 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4947736214710598 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5055940562230766 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.49695029582572614 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5139550964318429
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.42474517187961486 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.45127345886002757 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.40324913779806715 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.429817421704389 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5356691662420252
+Error at epoch 2 is 0.5295234416795276
+Error at epoch 3 is 0.5243285482955597
+Error at epoch 4 is 0.5199724356192714
+Error at epoch 5 is 0.5163443986307324
+Error at epoch 6 is 0.5133398934971269
+Error at epoch 7 is 0.510863472357388
+Error at epoch 8 is 0.5088302196907245
+Error at epoch 9 is 0.5071660987568406
+Error at epoch 10 is 0.5058075735020153
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.557423796797054 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5386082465101226 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.558322475752076 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5391835699440418 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5023429321935241
+Error at epoch 100 is 0.499057112077656
+Error at epoch 200 is 0.49839600525383254
+Error at epoch 300 is 0.49719799277992505
+Error at epoch 400 is 0.49484621640273924
+Error at epoch 500 is 0.49011127345865946
+Error at epoch 600 is 0.48108268879662003
+Error at epoch 700 is 0.465808301420675
+Error at epoch 800 is 0.4435395182816669
+Error at epoch 900 is 0.4165591860163883
+Error at epoch 1000 is 0.38946581237745637
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.27251163683918567 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.6162805523513691 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5535677237595797 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5980016665387562 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 2000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5116270924416095
+Error at epoch 200 is 0.4987213508309305
+Error at epoch 400 is 0.49600997913379796
+Error at epoch 600 is 0.4864758405417119
+Error at epoch 800 is 0.4574477159227801
+Error at epoch 1000 is 0.39621400344296853
+Error at epoch 1200 is 0.3190297335965139
+Error at epoch 1400 is 0.22682938055384416
+Error at epoch 1600 is 0.1370180920216119
+Error at epoch 1800 is 0.07763381759486065
+Error at epoch 2000 is 0.046479757636618116
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.12446409068638192 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.8270679591797367 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.8759254996649293 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.17875071045490404 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5319283307073294
+Error at epoch 1000 is 0.4994208753938889
+Error at epoch 2000 is 0.4456709234504467
+Error at epoch 3000 is 0.02939359058200068
+Error at epoch 4000 is 0.009088417018982423
+Error at epoch 5000 is 0.00511678332918921
+Error at epoch 6000 is 0.003509050915543363
+Error at epoch 7000 is 0.0026525879151108427
+Error at epoch 8000 is 0.002124515564061382
+Error at epoch 9000 is 0.0017678624427640648
+Error at epoch 10000 is 0.0015115035288303946
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.026940913117155216 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9683317411101792 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9745259351087266 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.025395815032304456 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5174997719829881
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5779157201636033 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5693150918508918 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5757171057594191 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5686320835407869 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.502825903243132
+Error at epoch 2 is 0.50175586888424
+Error at epoch 3 is 0.5010937779436473
+Error at epoch 4 is 0.5006853113115749
+Error at epoch 5 is 0.5004337495749978
+Error at epoch 6 is 0.5002789660118423
+Error at epoch 7 is 0.5001837664785038
+Error at epoch 8 is 0.5001252114228117
+Error at epoch 9 is 0.5000891782202006
+Error at epoch 10 is 0.5000669816916645
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.503677816918048 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5056625403279046 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5009208669038244 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5029569759589163 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5109478736378568
+Error at epoch 100 is 0.500347643700091
+Error at epoch 200 is 0.5001822423725761
+Error at epoch 300 is 0.5000816095882614
+Error at epoch 400 is 0.5000107003521834
+Error at epoch 500 is 0.49995217815491444
+Error at epoch 600 is 0.49989466683466643
+Error at epoch 700 is 0.4998270762316661
+Error at epoch 800 is 0.4997329987985535
+Error at epoch 900 is 0.4995792264830779
+Error at epoch 1000 is 0.4992811814382389
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4914561167390325 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4906326295699052 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5100521125830165 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5074648458385435 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 2000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5011995019728652
+Error at epoch 200 is 0.5000314404066419
+Error at epoch 400 is 0.49995188744527785
+Error at epoch 600 is 0.49987189628810336
+Error at epoch 800 is 0.499723461673854
+Error at epoch 1000 is 0.49931244774467426
+Error at epoch 1200 is 0.49743669084081765
+Error at epoch 1400 is 0.4819230067640807
+Error at epoch 1600 is 0.39434912272274714
+Error at epoch 1800 is 0.2001523350182397
+Error at epoch 2000 is 0.05655774834397809
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.1086087099198197 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.8421058260666622 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.8262311170260026 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.21350090249903325 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5308956497759105
+Error at epoch 1000 is 0.07565112947458863
+Error at epoch 2000 is 0.006388493586085767
+Error at epoch 3000 is 0.00299937644902749
+Error at epoch 4000 is 0.0019202527579580413
+Error at epoch 5000 is 0.0014003957883778951
+Error at epoch 6000 is 0.0010971173172649143
+Error at epoch 7000 is 0.0008993252345835791
+Error at epoch 8000 is 0.0007605372882042173
+Error at epoch 9000 is 0.0006579775640686671
+Error at epoch 10000 is 0.0005792086483551575
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.01636437002430446 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9836604562239897 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9835219573082193 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.01876110116659696 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5002205258550474
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4728345080063248 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.48704621135797654 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4990608779656412 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5111333307752857 | Pred: 1
+
+Accuracy: 0.25
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5031714915113841
+Error at epoch 2 is 0.5007943766648406
+Error at epoch 3 is 0.5002591524293445
+Error at epoch 4 is 0.5001385417730217
+Error at epoch 5 is 0.5001094263364163
+Error at epoch 6 is 0.5001004389396991
+Error at epoch 7 is 0.5000958855327605
+Error at epoch 8 is 0.5000923160296975
+Error at epoch 9 is 0.5000889713833945
+Error at epoch 10 is 0.5000856840744364
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5014606440999116 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5009359341178226 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4979946667699493 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4976221048678433 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 1000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5002894325126312
+Error at epoch 100 is 0.49998749538079235
+Error at epoch 200 is 0.4998246587312268
+Error at epoch 300 is 0.49944719713928953
+Error at epoch 400 is 0.4975659308042911
+Error at epoch 500 is 0.4674759045474872
+Error at epoch 600 is 0.21178603118746062
+Error at epoch 700 is 0.040423050124890614
+Error at epoch 800 is 0.01730853578474732
+Error at epoch 900 is 0.010445065314109093
+Error at epoch 1000 is 0.007336990810016829
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.03451035925076163 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9403024998623835 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9449313134439374 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.08271715085751309 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 2000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5113687013478492
+Error at epoch 200 is 0.49929306113164584
+Error at epoch 400 is 0.45116357015525155
+Error at epoch 600 is 0.05049946558266086
+Error at epoch 800 is 0.010593751348496017
+Error at epoch 1000 is 0.005509769707486952
+Error at epoch 1200 is 0.0036606260596433035
+Error at epoch 1400 is 0.002721590687103109
+Error at epoch 1600 is 0.0021579910261808276
+Error at epoch 1800 is 0.0017838171049955037
+Error at epoch 2000 is 0.0015180235818553081
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.01836392189416672 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9678867989471316 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9748180773230939 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.03211163306519563 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 3
+Epochs: 10000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5527301272601923
+Error at epoch 1000 is 0.004728500446484551
+Error at epoch 2000 is 0.0014409701760908372
+Error at epoch 3000 is 0.0008289136293232742
+Error at epoch 4000 is 0.0005775576839409501
+Error at epoch 5000 is 0.00044171241862045224
+Error at epoch 6000 is 0.00035695280893887764
+Error at epoch 7000 is 0.0002991479895709579
+Error at epoch 8000 is 0.00025726150349178326
+Error at epoch 9000 is 0.00022554349682930754
+Error at epoch 10000 is 0.00020070873742708946
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.004227587120658956 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9903064999228511 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9893500934434367 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.013270880234002622 | Pred: 0
+
+Accuracy: 1.0
+
+=========================================================
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5143617334079488
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.588373758243786 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5930699993166114 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5768886607356223 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5813070817544876 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5012666884498638
+Error at epoch 2 is 0.5012664595214658
+Error at epoch 3 is 0.5012662306484461
+Error at epoch 4 is 0.5012660018307917
+Error at epoch 5 is 0.501265773068489
+Error at epoch 6 is 0.5012655443615248
+Error at epoch 7 is 0.5012653157098856
+Error at epoch 8 is 0.5012650871135584
+Error at epoch 9 is 0.5012648585725297
+Error at epoch 10 is 0.501264630086786
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5278536236208028 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5346081152142825 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5085256920179612 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.515521826416874 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.515229348316633
+Error at epoch 100 is 0.5148896090165246
+Error at epoch 200 is 0.5145540469353889
+Error at epoch 300 is 0.5142259816319321
+Error at epoch 400 is 0.5139052642710886
+Error at epoch 500 is 0.5135917480944805
+Error at epoch 600 is 0.5132852884341204
+Error at epoch 700 is 0.5129857427234876
+Error at epoch 800 is 0.5126929705061042
+Error at epoch 900 is 0.5124068334417204
+Error at epoch 1000 is 0.5121271953102364
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.43950985997108044 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4174444291260448 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.43009706800192304 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4085579524596057 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 2000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5075714300822459
+Error at epoch 200 is 0.5072253971171314
+Error at epoch 400 is 0.5068945980526489
+Error at epoch 600 is 0.5065800222250083
+Error at epoch 800 is 0.5062809092136694
+Error at epoch 1000 is 0.5059965306284601
+Error at epoch 1200 is 0.50572618912112
+Error at epoch 1400 is 0.5054692173890538
+Error at epoch 1600 is 0.5052249771765263
+Error at epoch 1800 is 0.5049928582779193
+Error at epoch 2000 is 0.5047722775471133
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5492416036334316 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5163403790862453 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5709055177144046 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.538356167032448 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5033968098083883
+Error at epoch 1000 is 0.5027104088684384
+Error at epoch 2000 is 0.5021615288384524
+Error at epoch 3000 is 0.501723415523725
+Error at epoch 4000 is 0.5013738799843486
+Error at epoch 5000 is 0.5010950868725986
+Error at epoch 6000 is 0.5008727346528037
+Error at epoch 7000 is 0.5006953771133651
+Error at epoch 8000 is 0.5005538669265823
+Error at epoch 9000 is 0.5004409024818032
+Error at epoch 10000 is 0.5003506608083486
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4857977852931564 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5007636914459681 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4722410947614688 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.486760021546519 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5015977497654548
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5235311524025383 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5329854573328483 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5224044188526908 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5318862069643827 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5108874920486943
+Error at epoch 2 is 0.5108557914064994
+Error at epoch 3 is 0.5108241749423739
+Error at epoch 4 is 0.5107926424534782
+Error at epoch 5 is 0.5107611937373462
+Error at epoch 6 is 0.5107298285918844
+Error at epoch 7 is 0.5106985468153731
+Error at epoch 8 is 0.5106673482064655
+Error at epoch 9 is 0.5106362325641882
+Error at epoch 10 is 0.5106051996879405
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4279879238060049 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.42356642436393777 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.42943094107887664 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.42444094726180925 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5035826578427605
+Error at epoch 100 is 0.5028407662111375
+Error at epoch 200 is 0.5022472669159315
+Error at epoch 300 is 0.5017781930080856
+Error at epoch 400 is 0.5014076702910607
+Error at epoch 500 is 0.5011150893785051
+Error at epoch 600 is 0.500884079057013
+Error at epoch 700 is 0.5007016624021554
+Error at epoch 800 is 0.5005575701554662
+Error at epoch 900 is 0.5004436863511215
+Error at epoch 1000 is 0.5003536033472551
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5048025918106657 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5254632720246971 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4997854179598696 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5200771272373838 | Pred: 1
+
+Accuracy: 0.25
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 2000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5076024744473613
+Error at epoch 200 is 0.504672260559579
+Error at epoch 400 is 0.5028403673237986
+Error at epoch 600 is 0.50170963996244
+Error at epoch 800 is 0.501014194931882
+Error at epoch 1000 is 0.5005871160348189
+Error at epoch 1200 is 0.5003248045382157
+Error at epoch 1400 is 0.5001634008991652
+Error at epoch 1600 is 0.5000637034479128
+Error at epoch 1800 is 0.5000017065697571
+Error at epoch 2000 is 0.49996273156605303
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.49667863069451135 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.49728486838146774 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4920392851452223 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4924316215306596 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5020115720470638
+Error at epoch 1000 is 0.5005183846166836
+Error at epoch 2000 is 0.50032417113356
+Error at epoch 3000 is 0.5002654281842991
+Error at epoch 4000 is 0.500221514487709
+Error at epoch 5000 is 0.5001799568835126
+Error at epoch 6000 is 0.5001393774475267
+Error at epoch 7000 is 0.5000995392004192
+Error at epoch 8000 is 0.5000603256143119
+Error at epoch 9000 is 0.5000216352260038
+Error at epoch 10000 is 0.4999833702041958
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.49874500787294357 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5185491388076797 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4810364977085005 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5001020224996109 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.510087310539205
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5586391570328593 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5730217734035826 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5695320896484114 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5830744008966292 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5018780491327131
+Error at epoch 2 is 0.5018406348478142
+Error at epoch 3 is 0.5018042353321397
+Error at epoch 4 is 0.5017688232185599
+Error at epoch 5 is 0.5017343718635459
+Error at epoch 6 is 0.5017008553288308
+Error at epoch 7 is 0.5016682483634927
+Error at epoch 8 is 0.5016365263864491
+Error at epoch 9 is 0.5016056654693624
+Error at epoch 10 is 0.5015756423199402
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4889833886597795 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.484568033197619 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.47084693491667257 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.46724194531014757 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5113233561640029
+Error at epoch 100 is 0.5013649302768292
+Error at epoch 200 is 0.5004241126977781
+Error at epoch 300 is 0.5003277119634467
+Error at epoch 400 is 0.5003055844562727
+Error at epoch 500 is 0.500290389486896
+Error at epoch 600 is 0.5002762352466817
+Error at epoch 700 is 0.5002625854332027
+Error at epoch 800 is 0.500249372188138
+Error at epoch 900 is 0.5002365699123581
+Error at epoch 1000 is 0.5002241578675654
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5005486309451019 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4804214855904584 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5189972558234195 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.498571626570135 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 2000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5021701524894306
+Error at epoch 200 is 0.5001819833364713
+Error at epoch 400 is 0.500151799464311
+Error at epoch 600 is 0.5001338769795923
+Error at epoch 800 is 0.5001167990650534
+Error at epoch 1000 is 0.5001004190484826
+Error at epoch 1200 is 0.5000846613624383
+Error at epoch 1400 is 0.5000694567282241
+Error at epoch 1600 is 0.5000547410210802
+Error at epoch 1800 is 0.5000404546170056
+Error at epoch 2000 is 0.5000265418165767
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4983253413951777 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4927992525420702 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5067384078681769 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.501163849288202 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5065925647157066
+Error at epoch 1000 is 0.4990754905946757
+Error at epoch 2000 is 0.49854817771024407
+Error at epoch 3000 is 0.49758777760485906
+Error at epoch 4000 is 0.49572484290515695
+Error at epoch 5000 is 0.4920172741081651
+Error at epoch 6000 is 0.48492796696888474
+Error at epoch 7000 is 0.4727155505016263
+Error at epoch 8000 is 0.4543680466310873
+Error at epoch 9000 is 0.4311737410325075
+Error at epoch 10000 is 0.4073079219576482
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.28513522144691505 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5725821496255197 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5745275575974146 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.6079106074443325 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5057196159727326
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5495879788805353 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5315274398012247 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5554379751734959 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5384855854918579 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5074141883215771
+Error at epoch 2 is 0.5056814924430266
+Error at epoch 3 is 0.5043483789498671
+Error at epoch 4 is 0.5033257845798099
+Error at epoch 5 is 0.5025431673518963
+Error at epoch 6 is 0.5019452286437958
+Error at epoch 7 is 0.5014889558308947
+Error at epoch 8 is 0.5011410890008866
+Error at epoch 9 is 0.5008760236576978
+Error at epoch 10 is 0.5006741146550526
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4842796967107096 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.49404319130910374 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.47499831069953075 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4846594307052384 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5009313147627411
+Error at epoch 100 is 0.49986036229161296
+Error at epoch 200 is 0.4997386704348204
+Error at epoch 300 is 0.4995973581777228
+Error at epoch 400 is 0.4994170450553488
+Error at epoch 500 is 0.49917246110777413
+Error at epoch 600 is 0.49882621125207893
+Error at epoch 700 is 0.49831772548309106
+Error at epoch 800 is 0.4975415620425159
+Error at epoch 900 is 0.4963025318769104
+Error at epoch 1000 is 0.4942208718897817
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.483134302693762 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.518506037600959 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4835369162756049 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5063576643998946 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 2000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5004778783231911
+Error at epoch 200 is 0.4995207107384011
+Error at epoch 400 is 0.49897097067678897
+Error at epoch 600 is 0.49740644012969004
+Error at epoch 800 is 0.49200344406944385
+Error at epoch 1000 is 0.47424573268896086
+Error at epoch 1200 is 0.4312713328653677
+Error at epoch 1400 is 0.3690183459638203
+Error at epoch 1600 is 0.2932374892117642
+Error at epoch 1800 is 0.18337038519516557
+Error at epoch 2000 is 0.09424368065826527
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.1741341182781048 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.7889391927412003 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.7851550148441424 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.258543852771812 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5211537581710779
+Error at epoch 1000 is 0.4998826744127644
+Error at epoch 2000 is 0.498597970429842
+Error at epoch 3000 is 0.3301072131227628
+Error at epoch 4000 is 0.018616067318398568
+Error at epoch 5000 is 0.007127035661087945
+Error at epoch 6000 is 0.004219366062089579
+Error at epoch 7000 is 0.002952723591640884
+Error at epoch 8000 is 0.0022558669975656885
+Error at epoch 9000 is 0.0018186555198502299
+Error at epoch 10000 is 0.0015201863858199745
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.023855059059665246 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9717203949748616 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9722281162877145 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.029996563599455073 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5017131836395508
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5274164612574352 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5169095911557628 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5257806925297129 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5153964527488267 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5004040498537919
+Error at epoch 2 is 0.5003913053418059
+Error at epoch 3 is 0.5003825903242959
+Error at epoch 4 is 0.5003761794150873
+Error at epoch 5 is 0.5003710903482608
+Error at epoch 6 is 0.5003667638701335
+Error at epoch 7 is 0.5003628815128311
+Error at epoch 8 is 0.5003592618694961
+Error at epoch 9 is 0.5003558015546046
+Error at epoch 10 is 0.5003524415982052
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5119963894420542 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5032121230033187 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4964057796181928 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.48800887317604585 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5063273906044544
+Error at epoch 100 is 0.5000393097957654
+Error at epoch 200 is 0.49975237831687147
+Error at epoch 300 is 0.4993149236166273
+Error at epoch 400 is 0.49827330270808146
+Error at epoch 500 is 0.4947778775026371
+Error at epoch 600 is 0.4818695711241359
+Error at epoch 700 is 0.4465893803396672
+Error at epoch 800 is 0.39205368521838
+Error at epoch 900 is 0.3322448293568465
+Error at epoch 1000 is 0.23903114679633078
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.2019598198487996 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.6749517252377703 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.6602501423484075 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.46250066028485753 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 2000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5350845423018202
+Error at epoch 200 is 0.5002573173289766
+Error at epoch 400 is 0.5000544045516481
+Error at epoch 600 is 0.4999560243877612
+Error at epoch 800 is 0.49983978708645366
+Error at epoch 1000 is 0.499560780885039
+Error at epoch 1200 is 0.4983913266349963
+Error at epoch 1400 is 0.4888920533841103
+Error at epoch 1600 is 0.42796746543647535
+Error at epoch 1800 is 0.31511428389158713
+Error at epoch 2000 is 0.09657530099844006
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.14960270032155484 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.786651910823772 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.7740725106973749 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.26974083634434826 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5006239579141135
+Error at epoch 1000 is 0.03130956671139752
+Error at epoch 2000 is 0.005019224946424317
+Error at epoch 3000 is 0.00248461428958008
+Error at epoch 4000 is 0.0016150492476095213
+Error at epoch 5000 is 0.001185423548440985
+Error at epoch 6000 is 0.0009318074151429605
+Error at epoch 7000 is 0.0007653331501546852
+Error at epoch 8000 is 0.0006480670107769299
+Error at epoch 9000 is 0.000561196238812641
+Error at epoch 10000 is 0.0004943661845794166
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.015023897529576441 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9813897879543655 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9881940932497462 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.016648641762890912 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.500994215243052
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5024473124992264 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.520479288038182 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49384196809342495 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5117077738189322 | Pred: 1
+
+Accuracy: 0.25
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5066749276518471
+Error at epoch 2 is 0.5010718962175328
+Error at epoch 3 is 0.5001485829441367
+Error at epoch 4 is 0.5000026477512148
+Error at epoch 5 is 0.4999783107368448
+Error at epoch 6 is 0.49997284557131894
+Error at epoch 7 is 0.4999703133192887
+Error at epoch 8 is 0.4999682414688887
+Error at epoch 9 is 0.49996624596515704
+Error at epoch 10 is 0.49996426692236073
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4998373541959586 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.510618695462579 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4887830137208069 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4992497778792143 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 1000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.504934220583256
+Error at epoch 100 is 0.49971981980586455
+Error at epoch 200 is 0.49904032204090837
+Error at epoch 300 is 0.4919195968080529
+Error at epoch 400 is 0.40655339118379086
+Error at epoch 500 is 0.17647069372073654
+Error at epoch 600 is 0.03906961526802804
+Error at epoch 700 is 0.015424111357985132
+Error at epoch 800 is 0.008686206289436981
+Error at epoch 900 is 0.005806051448676077
+Error at epoch 1000 is 0.004272715260175223
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.04110737623829883 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.958536998439146 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9503899941081686 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.05149830946841748 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 2000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5004195699003755
+Error at epoch 200 is 0.45012949647471917
+Error at epoch 400 is 0.06151992744355725
+Error at epoch 600 is 0.012541200077736406
+Error at epoch 800 is 0.006251493828848041
+Error at epoch 1000 is 0.004055638168687928
+Error at epoch 1200 is 0.0029689346897228534
+Error at epoch 1400 is 0.00232807195270536
+Error at epoch 1600 is 0.0019080540298000558
+Error at epoch 1800 is 0.0016126566752624335
+Error at epoch 2000 is 0.0013941531125127873
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.028737401338467396 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9751597172951528 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9744745249536605 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.026305522217430984 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 4
+Epochs: 10000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5083776975561354
+Error at epoch 1000 is 0.004071995332985802
+Error at epoch 2000 is 0.00139809075213327
+Error at epoch 3000 is 0.0008233362151553363
+Error at epoch 4000 is 0.0005786528567916231
+Error at epoch 5000 is 0.0004442836008989398
+Error at epoch 6000 is 0.0003597109465123721
+Error at epoch 7000 is 0.00030172761089921376
+Error at epoch 8000 is 0.0002595676401956445
+Error at epoch 9000 is 0.0002275688161009547
+Error at epoch 10000 is 0.00020247426178950675
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.009056378962827693 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9918787715402813 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9892523057345601 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.011891950292099968 | Pred: 0
+
+Accuracy: 1.0
+
+=========================================================
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5148051092948639
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4220648470747953 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.41752376580083617 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4122190131364006 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.40828627154174196 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5070036061744395
+Error at epoch 2 is 0.5070017766539958
+Error at epoch 3 is 0.5069999476014926
+Error at epoch 4 is 0.5069981190168166
+Error at epoch 5 is 0.5069962908998548
+Error at epoch 6 is 0.5069944632504939
+Error at epoch 7 is 0.5069926360686214
+Error at epoch 8 is 0.5069908093541242
+Error at epoch 9 is 0.5069889831068891
+Error at epoch 10 is 0.5069871573268033
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5637518586934929 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5530836365270128 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5643073182359801 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5537076457522483 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5299837896879647
+Error at epoch 100 is 0.529178735445882
+Error at epoch 200 is 0.5283846811325551
+Error at epoch 300 is 0.5276095335322605
+Error at epoch 400 is 0.5268529688448362
+Error at epoch 500 is 0.5261146621899437
+Error at epoch 600 is 0.5253942880223061
+Error at epoch 700 is 0.5246915205282099
+Error at epoch 800 is 0.5240060340033272
+Error at epoch 900 is 0.5233375032119679
+Error at epoch 1000 is 0.5226856037279327
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.6000244417248097 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.6058664617222806 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.6097802712359961 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.6145863014038889 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 2000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5088201063307236
+Error at epoch 200 is 0.5082657763410465
+Error at epoch 400 is 0.5077393962214577
+Error at epoch 600 is 0.5072422489857358
+Error at epoch 800 is 0.5067728199012181
+Error at epoch 1000 is 0.506329660486358
+Error at epoch 1200 is 0.50591138700326
+Error at epoch 1400 is 0.5055166788079085
+Error at epoch 1600 is 0.5051442765860462
+Error at epoch 1800 is 0.504792980499795
+Error at epoch 2000 is 0.5044616482674085
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5310520586231992 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5492821467148691 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5580711026105477 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5731108594767207 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5531888699677392
+Error at epoch 1000 is 0.5426315610842508
+Error at epoch 2000 is 0.5338535412482184
+Error at epoch 3000 is 0.5266760382996651
+Error at epoch 4000 is 0.5208832193214565
+Error at epoch 5000 is 0.5162574890216387
+Error at epoch 6000 is 0.5125952130681863
+Error at epoch 7000 is 0.5097153414562481
+Error at epoch 8000 is 0.507462726684928
+Error at epoch 9000 is 0.5057079754026514
+Error at epoch 10000 is 0.5043453342909081
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.45019648277743207 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.44980713711838877 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4546009762663339 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4536949650264114 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.505602733068691
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.44686104536802473 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.44497525497691304 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.44972640756244664 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.44792225404304237 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5053718527782176
+Error at epoch 2 is 0.5053540968646538
+Error at epoch 3 is 0.5053363958758769
+Error at epoch 4 is 0.5053187496492616
+Error at epoch 5 is 0.5053011580226168
+Error at epoch 6 is 0.5052836208341853
+Error at epoch 7 is 0.5052661379226427
+Error at epoch 8 is 0.5052487091270963
+Error at epoch 9 is 0.5052313342870844
+Error at epoch 10 is 0.5052140132425758
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.44413910435215015 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4396013060479637 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.45703618764862264 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.45197074014466593 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5018633124817304
+Error at epoch 100 is 0.5014034496562458
+Error at epoch 200 is 0.5010571179626747
+Error at epoch 300 is 0.5007994799344032
+Error at epoch 400 is 0.5006079160807652
+Error at epoch 500 is 0.5004655258761203
+Error at epoch 600 is 0.5003597043487702
+Error at epoch 700 is 0.5002810626767195
+Error at epoch 800 is 0.5002226143847122
+Error at epoch 900 is 0.5001791643728215
+Error at epoch 1000 is 0.5001468516358674
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5051965648299872 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.49612526217281033 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5174772817248994 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5082830456779988 | Pred: 1
+
+Accuracy: 0.25
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 2000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5216153916780135
+Error at epoch 200 is 0.5134652947861186
+Error at epoch 400 is 0.5082567171346433
+Error at epoch 600 is 0.5050124093710474
+Error at epoch 800 is 0.5030157704048546
+Error at epoch 1000 is 0.5017956360495615
+Error at epoch 1200 is 0.5010528098823549
+Error at epoch 1400 is 0.5006011952557482
+Error at epoch 1600 is 0.5003264622844018
+Error at epoch 1800 is 0.5001588846316134
+Error at epoch 2000 is 0.5000561222691144
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.48121378053369157 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.504560500497581 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.47795705759386714 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5005553040272427 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5070892404194456
+Error at epoch 1000 is 0.5007835945269072
+Error at epoch 2000 is 0.5003403537858837
+Error at epoch 3000 is 0.5002855727307289
+Error at epoch 4000 is 0.5002569190466644
+Error at epoch 5000 is 0.5002310434888972
+Error at epoch 6000 is 0.5002063681831084
+Error at epoch 7000 is 0.5001827166619908
+Error at epoch 8000 is 0.5001600082055956
+Error at epoch 9000 is 0.5001381734959727
+Error at epoch 10000 is 0.5001171486661511
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5066067762003473 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4989348728510134 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5006601897365031 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.49313012745332213 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5131960927666044
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4221930504842685 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4118543143893614 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.42870428259179133 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4184994359493546 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5149410658684985
+Error at epoch 2 is 0.5145848273874378
+Error at epoch 3 is 0.5142363292275296
+Error at epoch 4 is 0.5138954241917731
+Error at epoch 5 is 0.5135619669195479
+Error at epoch 6 is 0.513235813909666
+Error at epoch 7 is 0.5129168235406466
+Error at epoch 8 is 0.5126048560883224
+Error at epoch 9 is 0.5122997737408918
+Error at epoch 10 is 0.5120014406115241
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.576064738517683 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5797928826369239 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5754352175980572 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5785668384855905 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.52591374556238
+Error at epoch 100 is 0.502058621882847
+Error at epoch 200 is 0.5006507479594711
+Error at epoch 300 is 0.5005468271490084
+Error at epoch 400 is 0.5005110217447983
+Error at epoch 500 is 0.5004801290134122
+Error at epoch 600 is 0.5004508319757393
+Error at epoch 700 is 0.5004228694957032
+Error at epoch 800 is 0.5003961438303025
+Error at epoch 900 is 0.5003705722145303
+Error at epoch 1000 is 0.5003460785765695
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5076274776259194 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4892202791266726 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5107193071488644 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.49266063572165336 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 2000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.502162161051881
+Error at epoch 200 is 0.5011622157443966
+Error at epoch 400 is 0.5010121986334757
+Error at epoch 600 is 0.5008805479654732
+Error at epoch 800 is 0.5007631543038455
+Error at epoch 1000 is 0.5006577249198568
+Error at epoch 1200 is 0.5005623300661122
+Error at epoch 1400 is 0.500475333366359
+Error at epoch 1600 is 0.5003953366291752
+Error at epoch 1800 is 0.5003211347819931
+Error at epoch 2000 is 0.500251678863198
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.505955242197088 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5038049578433181 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49781481171164305 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.49609726215640454 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5003150090226136
+Error at epoch 1000 is 0.500165543866121
+Error at epoch 2000 is 0.5000699453729689
+Error at epoch 3000 is 0.4999846355723125
+Error at epoch 4000 is 0.49990136220015935
+Error at epoch 5000 is 0.49981224535070085
+Error at epoch 6000 is 0.4997080845063565
+Error at epoch 7000 is 0.49957615830691765
+Error at epoch 8000 is 0.49939651824126574
+Error at epoch 9000 is 0.49913478450515836
+Error at epoch 10000 is 0.49872692283886666
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4876302010897806 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5018772141863378 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49979472117585766 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.511212256223546 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5004281079149042
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4905976035514709 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.49832894154635254 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.47699044544795766 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4845061494948173 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5599922932066064
+Error at epoch 2 is 0.5468027009038434
+Error at epoch 3 is 0.5359985221066086
+Error at epoch 4 is 0.5273636058375916
+Error at epoch 5 is 0.5206032787543926
+Error at epoch 6 is 0.5153984195389861
+Error at epoch 7 is 0.5114437870142339
+Error at epoch 8 is 0.5084696504363758
+Error at epoch 9 is 0.5062502297717931
+Error at epoch 10 is 0.5046036275120943
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4643309721836641 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.45562162331168976 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4626990987401884 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4540167339226787 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.49959391026452243
+Error at epoch 100 is 0.49894386900352117
+Error at epoch 200 is 0.49832588869113487
+Error at epoch 300 is 0.49731815974951443
+Error at epoch 400 is 0.49551072220323567
+Error at epoch 500 is 0.49203685477659975
+Error at epoch 600 is 0.48526819284375583
+Error at epoch 700 is 0.47280294054537003
+Error at epoch 800 is 0.4519258159320645
+Error at epoch 900 is 0.42073926584488197
+Error at epoch 1000 is 0.3802626214211009
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.3107582513533133 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5839667545694843 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5665344658551307 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5496291130567561 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 2000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5081644434929107
+Error at epoch 200 is 0.5000872174057923
+Error at epoch 400 is 0.4999819971305206
+Error at epoch 600 is 0.4998736853503518
+Error at epoch 800 is 0.4997221678404681
+Error at epoch 1000 is 0.49945038156807803
+Error at epoch 1200 is 0.49883998667363016
+Error at epoch 1400 is 0.49711804581737024
+Error at epoch 1600 is 0.4913510512446994
+Error at epoch 1800 is 0.47312631654772275
+Error at epoch 2000 is 0.4292832516376266
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.3642635877230989 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.551141534256743 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.559647944074705 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5743767234256085 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5055392338917135
+Error at epoch 1000 is 0.35665317832389604
+Error at epoch 2000 is 0.04090627588908938
+Error at epoch 3000 is 0.009991049298869088
+Error at epoch 4000 is 0.004978966332113863
+Error at epoch 5000 is 0.0032041591201064723
+Error at epoch 6000 is 0.0023295283044530097
+Error at epoch 7000 is 0.0018169409671357746
+Error at epoch 8000 is 0.0014829503433348669
+Error at epoch 9000 is 0.0012492446275272206
+Error at epoch 10000 is 0.0010771234620663176
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.02290629220274366 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9815759548926702 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9732779407862486 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.02399450460646279 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5113164633595951
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5635159544740412 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5521411365568041 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.560214160359097 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5483985117585658 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.4998657757323047
+Error at epoch 2 is 0.4998626179306156
+Error at epoch 3 is 0.49986015969301933
+Error at epoch 4 is 0.49985806793628956
+Error at epoch 5 is 0.49985616652349785
+Error at epoch 6 is 0.49985436228512237
+Error at epoch 7 is 0.49985260591306513
+Error at epoch 8 is 0.4998508712879848
+Error at epoch 9 is 0.4998491445504799
+Error at epoch 10 is 0.4998474183231226
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5013723807422956 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5042298543244302 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49597628922964293 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4984868852617332 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.49986260714759123
+Error at epoch 100 is 0.4992882955914573
+Error at epoch 200 is 0.4980310142405664
+Error at epoch 300 is 0.49349912238902727
+Error at epoch 400 is 0.47716986316420207
+Error at epoch 500 is 0.43851182226030816
+Error at epoch 600 is 0.3918854996113764
+Error at epoch 700 is 0.35053543469147774
+Error at epoch 800 is 0.293845826661873
+Error at epoch 900 is 0.21549535726616403
+Error at epoch 1000 is 0.13984577178676577
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.1677469946449237 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.7461584954520776 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.7573009257218043 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.35625788208422837 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 2000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5045980139472348
+Error at epoch 200 is 0.4973198736437522
+Error at epoch 400 is 0.4728547341168685
+Error at epoch 600 is 0.35641525540847935
+Error at epoch 800 is 0.1773751792598329
+Error at epoch 1000 is 0.05777124874253033
+Error at epoch 1200 is 0.025416556064001266
+Error at epoch 1400 is 0.01489148236576587
+Error at epoch 1600 is 0.010163927784356272
+Error at epoch 1800 is 0.007578934729861316
+Error at epoch 2000 is 0.005980415934010297
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.058059474663751436 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9497099361279248 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9454605664821882 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.055438542391477566 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.508639854210388
+Error at epoch 1000 is 0.07463812448327867
+Error at epoch 2000 is 0.005722740731313013
+Error at epoch 3000 is 0.002697085446127251
+Error at epoch 4000 is 0.0017286030061498805
+Error at epoch 5000 is 0.0012605397880814124
+Error at epoch 6000 is 0.0009869707222574036
+Error at epoch 7000 is 0.0008083667609558669
+Error at epoch 8000 is 0.0006829732460213078
+Error at epoch 9000 is 0.0005902901773272773
+Error at epoch 10000 is 0.0005191061022690029
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.014595595446545285 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9839352491133699 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9827306974476122 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.016393595839915842 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5191134013002554
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5339536857047034 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5388164762910068 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5317993213680269 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5367566305093856 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5042455728583731
+Error at epoch 2 is 0.5003979036484892
+Error at epoch 3 is 0.5001948361485165
+Error at epoch 4 is 0.5001827841201058
+Error at epoch 5 is 0.5001800487881062
+Error at epoch 6 is 0.5001777996403851
+Error at epoch 7 is 0.5001756079285695
+Error at epoch 8 is 0.500173452181115
+Error at epoch 9 is 0.500171330690656
+Error at epoch 10 is 0.5001692427217242
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.506083241788284 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5008261211417633 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49985125005830405 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4948644199984206 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 1000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.49997368693953925
+Error at epoch 100 is 0.49918675882723934
+Error at epoch 200 is 0.49019677954780105
+Error at epoch 300 is 0.3937842754329385
+Error at epoch 400 is 0.19793974413170956
+Error at epoch 500 is 0.05449300704510772
+Error at epoch 600 is 0.021294731071499148
+Error at epoch 700 is 0.01170878066693071
+Error at epoch 800 is 0.00773240217237897
+Error at epoch 900 is 0.005659927862401641
+Error at epoch 1000 is 0.004416051068533623
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.043948474090581335 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9529349142200927 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9552603632448676 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.05161513295604023 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 2000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5003748644155886
+Error at epoch 200 is 0.4826758697213567
+Error at epoch 400 is 0.09093871821900908
+Error at epoch 600 is 0.012950609838919148
+Error at epoch 800 is 0.005733215959763017
+Error at epoch 1000 is 0.0035046367908789086
+Error at epoch 1200 is 0.0024717050956136006
+Error at epoch 1400 is 0.0018879511326987115
+Error at epoch 1600 is 0.0015169231507598682
+Error at epoch 1800 is 0.0012620553272757573
+Error at epoch 2000 is 0.0010770570097029303
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.015542189047870874 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9761313590114932 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9776851142383016 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.029039544295748163 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 5
+Epochs: 10000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5000962100649458
+Error at epoch 1000 is 0.003559228306996747
+Error at epoch 2000 is 0.0012712040646089544
+Error at epoch 3000 is 0.0007581190559366488
+Error at epoch 4000 is 0.0005362240441758421
+Error at epoch 5000 is 0.00041329457741280814
+Error at epoch 6000 is 0.0003354772364236984
+Error at epoch 7000 is 0.0002819070850741634
+Error at epoch 8000 is 0.00024283613469952358
+Error at epoch 9000 is 0.00021311056004020098
+Error at epoch 10000 is 0.00018975374225634598
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.004655627212465527 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9895269457526265 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9904861264991216 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.012553576001776139 | Pred: 0
+
+Accuracy: 1.0
+
+=========================================================
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5230192175558943
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.37503587348575845 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.3882724366474561 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.396685783966276 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4088679908204575 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5024394612339355
+Error at epoch 2 is 0.5024386338424286
+Error at epoch 3 is 0.5024378067334823
+Error at epoch 4 is 0.502436979907002
+Error at epoch 5 is 0.5024361533628928
+Error at epoch 6 is 0.5024353271010602
+Error at epoch 7 is 0.5024345011214094
+Error at epoch 8 is 0.5024336754238461
+Error at epoch 9 is 0.5024328500082755
+Error at epoch 10 is 0.5024320248746031
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.46651430200868016 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.47513770697977464 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.45571792322887966 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.46422343794566273 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5419205002946827
+Error at epoch 100 is 0.5406347364938567
+Error at epoch 200 is 0.5393696173469126
+Error at epoch 300 is 0.5381378210349819
+Error at epoch 400 is 0.5369388501549283
+Error at epoch 500 is 0.5357721914747493
+Error at epoch 600 is 0.5346373175765394
+Error at epoch 700 is 0.5335336884543317
+Error at epoch 800 is 0.5324607530630797
+Error at epoch 900 is 0.5314179508155685
+Error at epoch 1000 is 0.5304047130245532
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.39013450681058853 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.3772846555041388 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.3779927309188634 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.36594682611784685 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 2000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.516377449511531
+Error at epoch 200 is 0.5152405142794078
+Error at epoch 400 is 0.5141721757761883
+Error at epoch 600 is 0.513174095483701
+Error at epoch 800 is 0.5122421879704984
+Error at epoch 1000 is 0.5113725332718193
+Error at epoch 1200 is 0.5105613803941476
+Error at epoch 1400 is 0.5098051489660416
+Error at epoch 1600 is 0.5091004292902561
+Error at epoch 1800 is 0.5084439810337748
+Error at epoch 2000 is 0.5078327307728565
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5537401609830056 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5658777008047323 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5611824005970039 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5727201272575891 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5034640578900017
+Error at epoch 1000 is 0.5024756183146306
+Error at epoch 2000 is 0.5017571740294814
+Error at epoch 3000 is 0.5012364732622601
+Error at epoch 4000 is 0.5008595361672832
+Error at epoch 5000 is 0.5005868856836605
+Error at epoch 6000 is 0.5003897641711894
+Error at epoch 7000 is 0.5002472815057006
+Error at epoch 8000 is 0.5001442931622463
+Error at epoch 9000 is 0.500069835706307
+Error at epoch 10000 is 0.5000159806020904
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.51097883105227 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5144394598412134 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5024852087479542 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5056110150446986 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5029679603425874
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5448109013813176 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5311590807301444 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5410279477879045 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5278548254289491 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5424043275506699
+Error at epoch 2 is 0.5422715801536323
+Error at epoch 3 is 0.542139171534664
+Error at epoch 4 is 0.5420071012718968
+Error at epoch 5 is 0.5418753689413269
+Error at epoch 6 is 0.5417439741168334
+Error at epoch 7 is 0.5416129163701928
+Error at epoch 8 is 0.541482195271098
+Error at epoch 9 is 0.5413518103871737
+Error at epoch 10 is 0.5412217612839945
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.35936456092860064 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.3422854834316094 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.37129920453528653 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.3538193492109219 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5053678689842593
+Error at epoch 100 is 0.5043693907391134
+Error at epoch 200 is 0.5036598818625281
+Error at epoch 300 is 0.5031612785105684
+Error at epoch 400 is 0.5028099839339197
+Error at epoch 500 is 0.5025613432422864
+Error at epoch 600 is 0.5023841302460392
+Error at epoch 700 is 0.5022565711169589
+Error at epoch 800 is 0.5021635129012562
+Error at epoch 900 is 0.50209442457061
+Error at epoch 1000 is 0.5020419940736558
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.52862585779755 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5056984766042504 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.507972671654673 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.48807057385762936 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 2000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5062578956004004
+Error at epoch 200 is 0.5037538789728352
+Error at epoch 400 is 0.502495140732636
+Error at epoch 600 is 0.5018672476394366
+Error at epoch 800 is 0.5015510528281746
+Error at epoch 1000 is 0.5013880662811944
+Error at epoch 1200 is 0.501300230234351
+Error at epoch 1400 is 0.5012492551974507
+Error at epoch 1600 is 0.501216395526667
+Error at epoch 1800 is 0.501192481972606
+Error at epoch 2000 is 0.5011730309249616
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5162840645663385 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.49480810106738854 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5033795868174196 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.48367960091561174 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5002842721781042
+Error at epoch 1000 is 0.5000616901053877
+Error at epoch 2000 is 0.5000435358382405
+Error at epoch 3000 is 0.5000333755627182
+Error at epoch 4000 is 0.5000235130607792
+Error at epoch 5000 is 0.5000136376818375
+Error at epoch 6000 is 0.5000037265524042
+Error at epoch 7000 is 0.49999376792680317
+Error at epoch 8000 is 0.49998375034086007
+Error at epoch 9000 is 0.4999736621513298
+Error at epoch 10000 is 0.49996349148572683
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4931902506490622 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5031641659622563 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4966687732769323 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5064604322409553 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5084898634968241
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.45378298455418314 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4367140648700493 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4401870650278044 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.42401204740989085 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5089292520587598
+Error at epoch 2 is 0.5086315320751214
+Error at epoch 3 is 0.508343430312263
+Error at epoch 4 is 0.5080646574759085
+Error at epoch 5 is 0.5077949315667596
+Error at epoch 6 is 0.5075339777906835
+Error at epoch 7 is 0.5072815284629568
+Error at epoch 8 is 0.5070373229072076
+Error at epoch 9 is 0.5068011073496647
+Error at epoch 10 is 0.5065726348092777
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5585597220551113 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5642069603436298 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5484092654114149 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5539536098691173 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5372160459793967
+Error at epoch 100 is 0.5007245911535947
+Error at epoch 200 is 0.499677865294776
+Error at epoch 300 is 0.49963341697472774
+Error at epoch 400 is 0.4996120848133644
+Error at epoch 500 is 0.49959094233829393
+Error at epoch 600 is 0.4995694264208004
+Error at epoch 700 is 0.4995474943947097
+Error at epoch 800 is 0.499525114649897
+Error at epoch 900 is 0.4995022545907908
+Error at epoch 1000 is 0.4994788802364439
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4962800079526611 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4938545090010619 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5071850225552249 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5036006167668572 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 2000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5015342028210135
+Error at epoch 200 is 0.5008824993145353
+Error at epoch 400 is 0.5007878532949309
+Error at epoch 600 is 0.5007018238339604
+Error at epoch 800 is 0.5006229788124561
+Error at epoch 1000 is 0.500550400491828
+Error at epoch 1200 is 0.5004832924192084
+Error at epoch 1400 is 0.5004209595877644
+Error at epoch 1600 is 0.5003627922994551
+Error at epoch 1800 is 0.5003082527710531
+Error at epoch 2000 is 0.5002568639571293
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5093585068196037 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4928384628865361 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5081727982083974 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.49189462161237896 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5242480771174705
+Error at epoch 1000 is 0.49986956621875833
+Error at epoch 2000 is 0.4997996937740298
+Error at epoch 3000 is 0.4997149486094776
+Error at epoch 4000 is 0.499605503465711
+Error at epoch 5000 is 0.4994555740150004
+Error at epoch 6000 is 0.49923761938625155
+Error at epoch 7000 is 0.49890006116335794
+Error at epoch 8000 is 0.4983398646720605
+Error at epoch 9000 is 0.4973400066241767
+Error at epoch 10000 is 0.4954336244296339
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.47111664386846724 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5078888230599772 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49761560726174003 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5237820350932031 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.49996657386483545
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5010462520193253 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5077018079591259 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.502484170856608 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.508886910505369 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5014780974812983
+Error at epoch 2 is 0.5008382945033253
+Error at epoch 3 is 0.5003895610532919
+Error at epoch 4 is 0.5000748090993401
+Error at epoch 5 is 0.49985375855677805
+Error at epoch 6 is 0.4996981168066579
+Error at epoch 7 is 0.4995880738401392
+Error at epoch 8 is 0.4995097896323
+Error at epoch 9 is 0.4994536099737721
+Error at epoch 10 is 0.4994128078230188
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4982630738481226 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5102762786077887 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5011220082776454 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5116548974439781 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.49985540816001595
+Error at epoch 100 is 0.4995866804992161
+Error at epoch 200 is 0.4992885437702782
+Error at epoch 300 is 0.4989053885969365
+Error at epoch 400 is 0.49835169419840253
+Error at epoch 500 is 0.49747921942534773
+Error at epoch 600 is 0.49601214422692924
+Error at epoch 700 is 0.4934342837204221
+Error at epoch 800 is 0.4888429858564277
+Error at epoch 900 is 0.48089844966466566
+Error at epoch 1000 is 0.46808376964996046
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.41086229081574016 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5349549926026629 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5211772298943729 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5670160662534995 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 2000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5010734415889742
+Error at epoch 200 is 0.5002304708237337
+Error at epoch 400 is 0.5000882204260271
+Error at epoch 600 is 0.4999622947787641
+Error at epoch 800 is 0.4998147421957993
+Error at epoch 1000 is 0.4995953006860765
+Error at epoch 1200 is 0.49919169589072704
+Error at epoch 1400 is 0.4982582449015739
+Error at epoch 1600 is 0.49542311966201164
+Error at epoch 1800 is 0.4849389049120586
+Error at epoch 2000 is 0.452022202967702
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.3986628303299545 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5375251147187606 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.520381494410049 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5483583460836083 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5066903815156806
+Error at epoch 1000 is 0.4988678168319163
+Error at epoch 2000 is 0.3535801998224382
+Error at epoch 3000 is 0.029798847405316353
+Error at epoch 4000 is 0.007823935236850217
+Error at epoch 5000 is 0.004017040256181836
+Error at epoch 6000 is 0.0026072225916815937
+Error at epoch 7000 is 0.0018985951689189282
+Error at epoch 8000 is 0.001479391279394564
+Error at epoch 9000 is 0.0012050194991097651
+Error at epoch 10000 is 0.001012655187551592
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.019954300631495784 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9777346657732138 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9774981881248284 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.02499465943281245 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5076170721672201
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4604233794250872 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4473633633368389 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4764115579860429 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4640641628834408 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5286680555213327
+Error at epoch 2 is 0.5146907364563816
+Error at epoch 3 is 0.5072604859160249
+Error at epoch 4 is 0.5035386532914733
+Error at epoch 5 is 0.5017320219325352
+Error at epoch 6 is 0.5008678569306426
+Error at epoch 7 is 0.5004565506448301
+Error at epoch 8 is 0.5002603838224748
+Error at epoch 9 is 0.5001658832621753
+Error at epoch 10 is 0.500119311620723
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5054080037977104 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5037903579704215 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5010430137691494 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.4995711102618901 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5158251172480287
+Error at epoch 100 is 0.5000021363095521
+Error at epoch 200 is 0.49973811423935177
+Error at epoch 300 is 0.49943586468807455
+Error at epoch 400 is 0.4989106114258044
+Error at epoch 500 is 0.4976772142533388
+Error at epoch 600 is 0.49390232507790555
+Error at epoch 700 is 0.48124565391942487
+Error at epoch 800 is 0.4487863224822889
+Error at epoch 900 is 0.3975267555980192
+Error at epoch 1000 is 0.3358884657083947
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.22317424345867556 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.6299146925760077 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5892240267150288 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5610646827965199 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 2000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5006076420941348
+Error at epoch 200 is 0.49965175477107404
+Error at epoch 400 is 0.4979243885536163
+Error at epoch 600 is 0.477245397844958
+Error at epoch 800 is 0.3614850643325803
+Error at epoch 1000 is 0.1703838708690743
+Error at epoch 1200 is 0.055353594322182634
+Error at epoch 1400 is 0.02426312174755304
+Error at epoch 1600 is 0.01396429125697998
+Error at epoch 1800 is 0.009376017390186885
+Error at epoch 2000 is 0.006898545809593901
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.05228793078974092 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9464274743933306 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9369666791948082 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.06481519354955136 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5232115222067688
+Error at epoch 1000 is 0.03584056225600059
+Error at epoch 2000 is 0.005269504727142977
+Error at epoch 3000 is 0.002427418533622791
+Error at epoch 4000 is 0.0015085785227698036
+Error at epoch 5000 is 0.001072979261812955
+Error at epoch 6000 is 0.0008236211095995592
+Error at epoch 7000 is 0.0006638443495115654
+Error at epoch 8000 is 0.0005534891116932919
+Error at epoch 9000 is 0.00047307589894915003
+Error at epoch 10000 is 0.0004120819954129943
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.013827776123977703 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9857339851476032 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9856264264809201 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.01492416385935674 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5138249400725843
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5084038599718339 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5191520832417766 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5054281846686086 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5156046720766148 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5332083506731073
+Error at epoch 2 is 0.5012205648284968
+Error at epoch 3 is 0.5000527291388818
+Error at epoch 4 is 0.500035939863897
+Error at epoch 5 is 0.5000344368744319
+Error at epoch 6 is 0.5000331403020915
+Error at epoch 7 is 0.5000318577446792
+Error at epoch 8 is 0.5000305864467562
+Error at epoch 9 is 0.5000293260724369
+Error at epoch 10 is 0.5000280763221625
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.49598328082709514 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5033385993864024 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4966368183296885 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5039912890358927 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 1000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.4998312539827152
+Error at epoch 100 is 0.49706595983998125
+Error at epoch 200 is 0.4539185757104028
+Error at epoch 300 is 0.22959393528473448
+Error at epoch 400 is 0.049468205533907336
+Error at epoch 500 is 0.01768668173338727
+Error at epoch 600 is 0.00957507320546032
+Error at epoch 700 is 0.006286170403689712
+Error at epoch 800 is 0.00458206904441445
+Error at epoch 900 is 0.0035622451990650556
+Error at epoch 1000 is 0.002891992328168822
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.029127437824521662 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9621095833563797 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9616153415333171 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.04489389472453497 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 2000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.49951505972300325
+Error at epoch 200 is 0.4004563914125604
+Error at epoch 400 is 0.04767370285381328
+Error at epoch 600 is 0.011666907037490272
+Error at epoch 800 is 0.00595067454115251
+Error at epoch 1000 is 0.0038684802042553575
+Error at epoch 1200 is 0.002825411723793306
+Error at epoch 1400 is 0.002208211168529403
+Error at epoch 1600 is 0.00180366644196362
+Error at epoch 1800 is 0.0015195143509862188
+Error at epoch 2000 is 0.0013097192594136687
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.025231582844050006 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9749848276338241 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.974863183111352 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.026895482294680757 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 7
+Epochs: 10000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5059889626691022
+Error at epoch 1000 is 0.004650467095159515
+Error at epoch 2000 is 0.0011203589966170473
+Error at epoch 3000 is 0.000597505165432533
+Error at epoch 4000 is 0.0003987819379768792
+Error at epoch 5000 is 0.0002961572425586181
+Error at epoch 6000 is 0.000234120807452007
+Error at epoch 7000 is 0.00019281678415602517
+Error at epoch 8000 is 0.0001634562264999015
+Error at epoch 9000 is 0.00014157414028286093
+Error at epoch 10000 is 0.00012467087439039436
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.005667986225279606 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9919423146063735 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9924004723538079 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.00972145195644062 | Pred: 0
+
+Accuracy: 1.0
+
+=========================================================
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.502735165457543
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4645049887558333 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.47936476621395263 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4528333911683345 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.468242610653149 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5170154752776931
+Error at epoch 2 is 0.5170085742523844
+Error at epoch 3 is 0.5170016758385169
+Error at epoch 4 is 0.5169947800352549
+Error at epoch 5 is 0.5169878868417637
+Error at epoch 6 is 0.516980996257208
+Error at epoch 7 is 0.5169741082807531
+Error at epoch 8 is 0.5169672229115648
+Error at epoch 9 is 0.5169603401488082
+Error at epoch 10 is 0.5169534599916491
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4053746490530038 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.41992212476228213 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.3952833385637933 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.40913564599629215 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5082242695010732
+Error at epoch 100 is 0.5078932631954891
+Error at epoch 200 is 0.5075718761436184
+Error at epoch 300 is 0.507263042926785
+Error at epoch 400 is 0.5069663027054173
+Error at epoch 500 is 0.5066812092188576
+Error at epoch 600 is 0.5064073305113359
+Error at epoch 700 is 0.506144248646661
+Error at epoch 800 is 0.5058915594134846
+Error at epoch 900 is 0.5056488720228485
+Error at epoch 1000 is 0.5054158087995817
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.433529196125849 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4426907894494616 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4526198549334832 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4611517188274712 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 2000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5003974224841743
+Error at epoch 200 is 0.5003957662959119
+Error at epoch 400 is 0.5003941819607074
+Error at epoch 600 is 0.500392671377211
+Error at epoch 800 is 0.5003912284592348
+Error at epoch 1000 is 0.5003898476254012
+Error at epoch 1200 is 0.5003885237572768
+Error at epoch 1400 is 0.5003872521609815
+Error at epoch 1600 is 0.5003860285319759
+Error at epoch 1800 is 0.5003848489227707
+Error at epoch 2000 is 0.5003837097133118
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4970105337206739 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5123550949091726 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4832023752256658 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4988693207277894 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10000
+Learning rate: 0.001
+
+Errors during training:
+Error at epoch 1 is 0.5341131124041177
+Error at epoch 1000 is 0.5230787014675609
+Error at epoch 2000 is 0.5154181389241315
+Error at epoch 3000 is 0.5102392645352858
+Error at epoch 4000 is 0.5067986694531759
+Error at epoch 5000 is 0.5045392582209426
+Error at epoch 6000 is 0.503066513335195
+Error at epoch 7000 is 0.5021108448172301
+Error at epoch 8000 is 0.5014921657792789
+Error at epoch 9000 is 0.5010919074140607
+Error at epoch 10000 is 0.5008327227811725
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.49323286036805214 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4831517375680822 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4866280645964327 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4771828857651189 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5062507284788226
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4484589395710298 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4396241039146116 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.44993680468221775 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4412916445181424 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5013540587737426
+Error at epoch 2 is 0.5013472255214445
+Error at epoch 3 is 0.5013404225106441
+Error at epoch 4 is 0.5013336496088296
+Error at epoch 5 is 0.5013269066840548
+Error at epoch 6 is 0.5013201936049381
+Error at epoch 7 is 0.5013135102406595
+Error at epoch 8 is 0.5013068564609579
+Error at epoch 9 is 0.5013002321361302
+Error at epoch 10 is 0.5012936371370276
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5285400167944224 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5185572103856534 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5352689681996937 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5248404535925543 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5144248249385176
+Error at epoch 100 is 0.5092463757472584
+Error at epoch 200 is 0.5057579282035001
+Error at epoch 300 is 0.5034637767064156
+Error at epoch 400 is 0.5019666837645425
+Error at epoch 500 is 0.5009944632267921
+Error at epoch 600 is 0.5003648763078159
+Error at epoch 700 is 0.4999576984313234
+Error at epoch 800 is 0.4996943639127299
+Error at epoch 900 is 0.49952384128004695
+Error at epoch 1000 is 0.4994131121191642
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4908083702889293 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5137575793419655 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5076013631706973 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5282456710086253 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 2000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5094453425180288
+Error at epoch 200 is 0.5038005568700049
+Error at epoch 400 is 0.5014563791921668
+Error at epoch 600 is 0.5005070531245688
+Error at epoch 800 is 0.5001244449111869
+Error at epoch 1000 is 0.4999696175180742
+Error at epoch 1200 is 0.49990594185296056
+Error at epoch 1400 is 0.4998786752833595
+Error at epoch 1600 is 0.4998659383517741
+Error at epoch 1800 is 0.49985899540402123
+Error at epoch 2000 is 0.49985436028132935
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4912992307041064 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5011869115788007 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4982686327973405 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.507725205290125 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10000
+Learning rate: 0.01
+
+Errors during training:
+Error at epoch 1 is 0.5230282376146997
+Error at epoch 1000 is 0.5007374998904606
+Error at epoch 2000 is 0.5003810947299124
+Error at epoch 3000 is 0.5002824258548481
+Error at epoch 4000 is 0.5001896711956972
+Error at epoch 5000 is 0.5000997736131834
+Error at epoch 6000 is 0.5000123365412132
+Error at epoch 7000 is 0.49992701511932464
+Error at epoch 8000 is 0.49984348524674893
+Error at epoch 9000 is 0.4997614404848202
+Error at epoch 10000 is 0.49968058953202843
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4993680007331258 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4942892842779668 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5071305889202948 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5013272721875033 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5012562612145651
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5049715663116165 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4828819054953554 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4934427550273919 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.47273918530745385 | Pred: 0
+
+Accuracy: 0.25
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5201705299311954
+Error at epoch 2 is 0.5191933859455871
+Error at epoch 3 is 0.5182604327932292
+Error at epoch 4 is 0.5173700128167116
+Error at epoch 5 is 0.5165204979584794
+Error at epoch 6 is 0.5157102926126717
+Error at epoch 7 is 0.514937836065744
+Error at epoch 8 is 0.5142016045521898
+Error at epoch 9 is 0.5135001129520183
+Error at epoch 10 is 0.512831916156623
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4317203618259793 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.400177902213095 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.44628508178774906 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4142728446317637 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5026804513445224
+Error at epoch 100 is 0.5000237575258556
+Error at epoch 200 is 0.49996459902405077
+Error at epoch 300 is 0.4999416786922289
+Error at epoch 400 is 0.49991937590982677
+Error at epoch 500 is 0.49989717324603267
+Error at epoch 600 is 0.4998750171847765
+Error at epoch 700 is 0.49985286087825537
+Error at epoch 800 is 0.49983065783675407
+Error at epoch 900 is 0.49980836164277753
+Error at epoch 1000 is 0.499785925752389
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.48704714076676797 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5101710817318534 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4904111361307427 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5125849240655022 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 2000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.522319837496967
+Error at epoch 200 is 0.4999893878101216
+Error at epoch 400 is 0.4999521439598902
+Error at epoch 600 is 0.4999198323627533
+Error at epoch 800 is 0.49988723671449564
+Error at epoch 1000 is 0.4998541381957514
+Error at epoch 1200 is 0.4998203122098013
+Error at epoch 1400 is 0.4997855240048147
+Error at epoch 1600 is 0.49974952504686665
+Error at epoch 1800 is 0.49971204905584105
+Error at epoch 2000 is 0.49967280760210364
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4938055554631435 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4987968039099839 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.501525913366879 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5057867410896052 | Pred: 1
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10000
+Learning rate: 0.1
+
+Errors during training:
+Error at epoch 1 is 0.5016222052113359
+Error at epoch 1000 is 0.5005322444146425
+Error at epoch 2000 is 0.5001299489809657
+Error at epoch 3000 is 0.4998401664216182
+Error at epoch 4000 is 0.4995855503516229
+Error at epoch 5000 is 0.49931191142871534
+Error at epoch 6000 is 0.49896296997190925
+Error at epoch 7000 is 0.49845633748131574
+Error at epoch 8000 is 0.4976441940572971
+Error at epoch 9000 is 0.49623362660015846
+Error at epoch 10000 is 0.4936281637305467
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.4677668242142956 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.500955518584766 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5083351558635166 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5269380970336369 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5087784516339924
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.44112265532029127 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.4652311053534205 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.4329389096850999 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4570478845341834 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5009543123769635
+Error at epoch 2 is 0.5006094032610985
+Error at epoch 3 is 0.5004012073190972
+Error at epoch 4 is 0.5002755849779748
+Error at epoch 5 is 0.5001997475020522
+Error at epoch 6 is 0.5001538938880847
+Error at epoch 7 is 0.5001260870181041
+Error at epoch 8 is 0.5001091380242183
+Error at epoch 9 is 0.5000987202753144
+Error at epoch 10 is 0.5000922307638479
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5031057675065994 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5088456580058829 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.4942348540513769 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.5000298229237056 | Pred: 1
+
+Accuracy: 0.25
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5016361566255728
+Error at epoch 100 is 0.5007653521434726
+Error at epoch 200 is 0.500361957468792
+Error at epoch 300 is 0.5000721462907262
+Error at epoch 400 is 0.49983402291389256
+Error at epoch 500 is 0.49960996855112205
+Error at epoch 600 is 0.4993709393740048
+Error at epoch 700 is 0.4990870354009197
+Error at epoch 800 is 0.49871829819236185
+Error at epoch 900 is 0.49820043861738017
+Error at epoch 1000 is 0.497416361537386
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.48929084437404635 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.5034373421127972 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.500136539026112 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.5088905495362886 | Pred: 1
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 2000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5045222321947826
+Error at epoch 200 is 0.49926056027564036
+Error at epoch 400 is 0.4983334521760956
+Error at epoch 600 is 0.496587677816689
+Error at epoch 800 is 0.4922375796718398
+Error at epoch 1000 is 0.47697071857969986
+Error at epoch 1200 is 0.40616412255279066
+Error at epoch 1400 is 0.20805090402250032
+Error at epoch 1600 is 0.07973433700867338
+Error at epoch 1800 is 0.039560761853038945
+Error at epoch 2000 is 0.024333401895583452
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.09085315286354928 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.8944132707295491 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.8858073908773283 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.12698001816732435 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10000
+Learning rate: 1
+
+Errors during training:
+Error at epoch 1 is 0.5311136989368396
+Error at epoch 1000 is 0.4995713490151277
+Error at epoch 2000 is 0.4634253896870497
+Error at epoch 3000 is 0.035465073964042505
+Error at epoch 4000 is 0.008841051011282354
+Error at epoch 5000 is 0.004613367262026722
+Error at epoch 6000 is 0.003037371560645097
+Error at epoch 7000 is 0.0022359041127720178
+Error at epoch 8000 is 0.0017567720763668302
+Error at epoch 9000 is 0.0014403892947988898
+Error at epoch 10000 is 0.0012169154119319363
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.017888442880776772 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9751216012299709 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9750774743272399 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.029553116003357634 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5007704245139302
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5145788586023707 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5049422495324525 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.49261737979476405 | Pred: 0
+Input: [1. 1.] | Target: 0 | Output: 0.4839483907149885 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5117243111895604
+Error at epoch 2 is 0.5043841000269385
+Error at epoch 3 is 0.5017748532827364
+Error at epoch 4 is 0.5008832360654722
+Error at epoch 5 is 0.5005784033329255
+Error at epoch 6 is 0.5004698407887103
+Error at epoch 7 is 0.5004265110922248
+Error at epoch 8 is 0.5004048597297058
+Error at epoch 9 is 0.5003904527860022
+Error at epoch 10 is 0.5003785102206116
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5073944966423644 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.49553160850380007 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5055304725769226 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.4942643525071403 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5011581340920839
+Error at epoch 100 is 0.4996848206732467
+Error at epoch 200 is 0.4990431755029968
+Error at epoch 300 is 0.4978239672063378
+Error at epoch 400 is 0.49477139899401074
+Error at epoch 500 is 0.4848551921222416
+Error at epoch 600 is 0.4483317731777824
+Error at epoch 700 is 0.3376498653804625
+Error at epoch 800 is 0.16718441283565294
+Error at epoch 900 is 0.07213363928877509
+Error at epoch 1000 is 0.03802873137302572
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.11006213893919772 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.8620023828726967 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.8643355592341327 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.16151476522506433 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 2000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5011437185124541
+Error at epoch 200 is 0.4992788402743442
+Error at epoch 400 is 0.4973152049634556
+Error at epoch 600 is 0.48402077474153066
+Error at epoch 800 is 0.2928798088848924
+Error at epoch 1000 is 0.054028745578506295
+Error at epoch 1200 is 0.020729727812266077
+Error at epoch 1400 is 0.01184690990479316
+Error at epoch 1600 is 0.008056303798260979
+Error at epoch 1800 is 0.0060179771955041275
+Error at epoch 2000 is 0.004764271956388648
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.0472502763358034 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.951600976394367 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9501512369641999 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.049583429337125805 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10000
+Learning rate: 2
+
+Errors during training:
+Error at epoch 1 is 0.5005047955223889
+Error at epoch 1000 is 0.3517881610294015
+Error at epoch 2000 is 0.0062556922803842716
+Error at epoch 3000 is 0.0025865286703667745
+Error at epoch 4000 is 0.0015869518678290095
+Error at epoch 5000 is 0.0011326288747794979
+Error at epoch 6000 is 0.0008757245816580297
+Error at epoch 7000 is 0.0007114494306678198
+Error at epoch 8000 is 0.0005977506250494542
+Error at epoch 9000 is 0.0005145804725684738
+Error at epoch 10000 is 0.000451204030465603
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.010766050433795703 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9843081952366034 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9853719914432165 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.018060377809425054 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5034459817571751
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5036018416993588 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.5011632253588834 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.5017487159361911 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.4994184913607288 | Pred: 0
+
+Accuracy: 0.75
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5012862451458275
+Error at epoch 2 is 0.5005474009949176
+Error at epoch 3 is 0.5004428925028284
+Error at epoch 4 is 0.5003920853908039
+Error at epoch 5 is 0.5003465669303382
+Error at epoch 6 is 0.5003021977091959
+Error at epoch 7 is 0.5002585838859502
+Error at epoch 8 is 0.5002156502681132
+Error at epoch 9 is 0.5001733498399363
+Error at epoch 10 is 0.5001316391454931
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.5089669347247116 | Pred: 1
+Input: [0. 1.] | Target: 1 | Output: 0.4965977340934676 | Pred: 0
+Input: [1. 0.] | Target: 1 | Output: 0.5069340844629459 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.4945763573098114 | Pred: 0
+
+Accuracy: 0.5
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 1000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.501908670158226
+Error at epoch 100 is 0.4991707961087499
+Error at epoch 200 is 0.49104680709832693
+Error at epoch 300 is 0.3858535647045656
+Error at epoch 400 is 0.13380516702711445
+Error at epoch 500 is 0.0357055538106657
+Error at epoch 600 is 0.015275475094067698
+Error at epoch 700 is 0.008760918137656332
+Error at epoch 800 is 0.005870857429487426
+Error at epoch 900 is 0.004311251925946666
+Error at epoch 1000 is 0.0033586489797050698
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.03470343423775601 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9572390593292928 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9611699902397184 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.046491801759125 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 2000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5038457083541038
+Error at epoch 200 is 0.49682424589337765
+Error at epoch 400 is 0.24137323765614677
+Error at epoch 600 is 0.026248685569354724
+Error at epoch 800 is 0.009119688144956175
+Error at epoch 1000 is 0.00503296208099646
+Error at epoch 1200 is 0.0033603874205750963
+Error at epoch 1400 is 0.002481113228237221
+Error at epoch 1600 is 0.0019481235410578536
+Error at epoch 1800 is 0.0015940699547502015
+Error at epoch 2000 is 0.0013434222394253044
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.024701147214886237 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9723890533550607 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9762584112739273 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.02735937670820355 | Pred: 0
+
+Accuracy: 1.0
+
+---------------------------------------------------------
+
+Hidden units: 10
+Epochs: 10000
+Learning rate: 5
+
+Errors during training:
+Error at epoch 1 is 0.5038943557743067
+Error at epoch 1000 is 0.003226753969664032
+Error at epoch 2000 is 0.001035965049739977
+Error at epoch 3000 is 0.000586910619805658
+Error at epoch 4000 is 0.00040216949573887244
+Error at epoch 5000 is 0.00030317321784947946
+Error at epoch 6000 is 0.0002420192101272898
+Error at epoch 7000 is 0.00020071406711289123
+Error at epoch 8000 is 0.00017104960415949066
+Error at epoch 9000 is 0.00014876893316359137
+Error at epoch 10000 is 0.00013145264521029201
+
+Outputs after training:
+Input: [0. 0.] | Target: 0 | Output: 0.006530126953406816 | Pred: 0
+Input: [0. 1.] | Target: 1 | Output: 0.9914292166126704 | Pred: 1
+Input: [1. 0.] | Target: 1 | Output: 0.9921330597687941 | Pred: 1
+Input: [1. 1.] | Target: 0 | Output: 0.009213300296979634 | Pred: 0
+
+Accuracy: 1.0
+
+=========================================================
+
+
+==================== GLOBAL SUMMARY ====================
+
+HU=3 | LR=1 | Epochs=2000 | Accuracy=1.0
+HU=3 | LR=1 | Epochs=10000 | Accuracy=1.0
+HU=3 | LR=2 | Epochs=2000 | Accuracy=1.0
+HU=3 | LR=2 | Epochs=10000 | Accuracy=1.0
+HU=3 | LR=5 | Epochs=1000 | Accuracy=1.0
+HU=3 | LR=5 | Epochs=2000 | Accuracy=1.0
+HU=3 | LR=5 | Epochs=10000 | Accuracy=1.0
+HU=4 | LR=1 | Epochs=2000 | Accuracy=1.0
+HU=4 | LR=1 | Epochs=10000 | Accuracy=1.0
+HU=4 | LR=2 | Epochs=1000 | Accuracy=1.0
+HU=4 | LR=2 | Epochs=2000 | Accuracy=1.0
+HU=4 | LR=2 | Epochs=10000 | Accuracy=1.0
+HU=4 | LR=5 | Epochs=1000 | Accuracy=1.0
+HU=4 | LR=5 | Epochs=2000 | Accuracy=1.0
+HU=4 | LR=5 | Epochs=10000 | Accuracy=1.0
+HU=5 | LR=1 | Epochs=10000 | Accuracy=1.0
+HU=5 | LR=2 | Epochs=1000 | Accuracy=1.0
+HU=5 | LR=2 | Epochs=2000 | Accuracy=1.0
+HU=5 | LR=2 | Epochs=10000 | Accuracy=1.0
+HU=5 | LR=5 | Epochs=1000 | Accuracy=1.0
+HU=5 | LR=5 | Epochs=2000 | Accuracy=1.0
+HU=5 | LR=5 | Epochs=10000 | Accuracy=1.0
+HU=7 | LR=1 | Epochs=10000 | Accuracy=1.0
+HU=7 | LR=2 | Epochs=2000 | Accuracy=1.0
+HU=7 | LR=2 | Epochs=10000 | Accuracy=1.0
+HU=7 | LR=5 | Epochs=1000 | Accuracy=1.0
+HU=7 | LR=5 | Epochs=2000 | Accuracy=1.0
+HU=7 | LR=5 | Epochs=10000 | Accuracy=1.0
+HU=10 | LR=1 | Epochs=2000 | Accuracy=1.0
+HU=10 | LR=1 | Epochs=10000 | Accuracy=1.0
+HU=10 | LR=2 | Epochs=1000 | Accuracy=1.0
+HU=10 | LR=2 | Epochs=2000 | Accuracy=1.0
+HU=10 | LR=2 | Epochs=10000 | Accuracy=1.0
+HU=10 | LR=5 | Epochs=1000 | Accuracy=1.0
+HU=10 | LR=5 | Epochs=2000 | Accuracy=1.0
+HU=10 | LR=5 | Epochs=10000 | Accuracy=1.0
+HU=3 | LR=0.001 | Epochs=10000 | Accuracy=0.75
+HU=3 | LR=1 | Epochs=1000 | Accuracy=0.75
+HU=4 | LR=0.001 | Epochs=10000 | Accuracy=0.75
+HU=4 | LR=0.1 | Epochs=10000 | Accuracy=0.75
+HU=4 | LR=5 | Epochs=10 | Accuracy=0.75
+HU=5 | LR=1 | Epochs=1000 | Accuracy=0.75
+HU=5 | LR=1 | Epochs=2000 | Accuracy=0.75
+HU=7 | LR=0.01 | Epochs=1000 | Accuracy=0.75
+HU=7 | LR=1 | Epochs=10 | Accuracy=0.75
+HU=7 | LR=1 | Epochs=1000 | Accuracy=0.75
+HU=7 | LR=1 | Epochs=2000 | Accuracy=0.75
+HU=7 | LR=2 | Epochs=10 | Accuracy=0.75
+HU=7 | LR=2 | Epochs=1000 | Accuracy=0.75
+HU=10 | LR=0.001 | Epochs=2000 | Accuracy=0.75
+HU=10 | LR=0.01 | Epochs=1000 | Accuracy=0.75
+HU=10 | LR=0.1 | Epochs=10000 | Accuracy=0.75
+HU=10 | LR=1 | Epochs=1000 | Accuracy=0.75
+HU=10 | LR=5 | Epochs=1 | Accuracy=0.75
+HU=3 | LR=0.001 | Epochs=1 | Accuracy=0.5
+HU=3 | LR=0.001 | Epochs=10 | Accuracy=0.5
+HU=3 | LR=0.001 | Epochs=1000 | Accuracy=0.5
+HU=3 | LR=0.001 | Epochs=2000 | Accuracy=0.5
+HU=3 | LR=0.01 | Epochs=1 | Accuracy=0.5
+HU=3 | LR=0.01 | Epochs=10 | Accuracy=0.5
+HU=3 | LR=0.01 | Epochs=1000 | Accuracy=0.5
+HU=3 | LR=0.01 | Epochs=2000 | Accuracy=0.5
+HU=3 | LR=0.01 | Epochs=10000 | Accuracy=0.5
+HU=3 | LR=0.1 | Epochs=1 | Accuracy=0.5
+HU=3 | LR=0.1 | Epochs=10 | Accuracy=0.5
+HU=3 | LR=0.1 | Epochs=1000 | Accuracy=0.5
+HU=3 | LR=0.1 | Epochs=2000 | Accuracy=0.5
+HU=3 | LR=0.1 | Epochs=10000 | Accuracy=0.5
+HU=3 | LR=1 | Epochs=1 | Accuracy=0.5
+HU=3 | LR=1 | Epochs=10 | Accuracy=0.5
+HU=3 | LR=2 | Epochs=1 | Accuracy=0.5
+HU=3 | LR=2 | Epochs=10 | Accuracy=0.5
+HU=3 | LR=2 | Epochs=1000 | Accuracy=0.5
+HU=3 | LR=5 | Epochs=10 | Accuracy=0.5
+HU=4 | LR=0.001 | Epochs=1 | Accuracy=0.5
+HU=4 | LR=0.001 | Epochs=10 | Accuracy=0.5
+HU=4 | LR=0.001 | Epochs=1000 | Accuracy=0.5
+HU=4 | LR=0.001 | Epochs=2000 | Accuracy=0.5
+HU=4 | LR=0.01 | Epochs=1 | Accuracy=0.5
+HU=4 | LR=0.01 | Epochs=10 | Accuracy=0.5
+HU=4 | LR=0.01 | Epochs=2000 | Accuracy=0.5
+HU=4 | LR=0.01 | Epochs=10000 | Accuracy=0.5
+HU=4 | LR=0.1 | Epochs=1 | Accuracy=0.5
+HU=4 | LR=0.1 | Epochs=10 | Accuracy=0.5
+HU=4 | LR=0.1 | Epochs=1000 | Accuracy=0.5
+HU=4 | LR=0.1 | Epochs=2000 | Accuracy=0.5
+HU=4 | LR=1 | Epochs=1 | Accuracy=0.5
+HU=4 | LR=1 | Epochs=10 | Accuracy=0.5
+HU=4 | LR=1 | Epochs=1000 | Accuracy=0.5
+HU=4 | LR=2 | Epochs=1 | Accuracy=0.5
+HU=4 | LR=2 | Epochs=10 | Accuracy=0.5
+HU=5 | LR=0.001 | Epochs=1 | Accuracy=0.5
+HU=5 | LR=0.001 | Epochs=10 | Accuracy=0.5
+HU=5 | LR=0.001 | Epochs=1000 | Accuracy=0.5
+HU=5 | LR=0.001 | Epochs=2000 | Accuracy=0.5
+HU=5 | LR=0.001 | Epochs=10000 | Accuracy=0.5
+HU=5 | LR=0.01 | Epochs=1 | Accuracy=0.5
+HU=5 | LR=0.01 | Epochs=10 | Accuracy=0.5
+HU=5 | LR=0.01 | Epochs=2000 | Accuracy=0.5
+HU=5 | LR=0.01 | Epochs=10000 | Accuracy=0.5
+HU=5 | LR=0.1 | Epochs=1 | Accuracy=0.5
+HU=5 | LR=0.1 | Epochs=10 | Accuracy=0.5
+HU=5 | LR=0.1 | Epochs=1000 | Accuracy=0.5
+HU=5 | LR=0.1 | Epochs=2000 | Accuracy=0.5
+HU=5 | LR=0.1 | Epochs=10000 | Accuracy=0.5
+HU=5 | LR=1 | Epochs=1 | Accuracy=0.5
+HU=5 | LR=1 | Epochs=10 | Accuracy=0.5
+HU=5 | LR=2 | Epochs=1 | Accuracy=0.5
+HU=5 | LR=2 | Epochs=10 | Accuracy=0.5
+HU=5 | LR=5 | Epochs=1 | Accuracy=0.5
+HU=5 | LR=5 | Epochs=10 | Accuracy=0.5
+HU=7 | LR=0.001 | Epochs=1 | Accuracy=0.5
+HU=7 | LR=0.001 | Epochs=10 | Accuracy=0.5
+HU=7 | LR=0.001 | Epochs=1000 | Accuracy=0.5
+HU=7 | LR=0.001 | Epochs=2000 | Accuracy=0.5
+HU=7 | LR=0.001 | Epochs=10000 | Accuracy=0.5
+HU=7 | LR=0.01 | Epochs=1 | Accuracy=0.5
+HU=7 | LR=0.01 | Epochs=10 | Accuracy=0.5
+HU=7 | LR=0.01 | Epochs=2000 | Accuracy=0.5
+HU=7 | LR=0.01 | Epochs=10000 | Accuracy=0.5
+HU=7 | LR=0.1 | Epochs=1 | Accuracy=0.5
+HU=7 | LR=0.1 | Epochs=10 | Accuracy=0.5
+HU=7 | LR=0.1 | Epochs=1000 | Accuracy=0.5
+HU=7 | LR=0.1 | Epochs=2000 | Accuracy=0.5
+HU=7 | LR=0.1 | Epochs=10000 | Accuracy=0.5
+HU=7 | LR=1 | Epochs=1 | Accuracy=0.5
+HU=7 | LR=2 | Epochs=1 | Accuracy=0.5
+HU=7 | LR=5 | Epochs=1 | Accuracy=0.5
+HU=7 | LR=5 | Epochs=10 | Accuracy=0.5
+HU=10 | LR=0.001 | Epochs=1 | Accuracy=0.5
+HU=10 | LR=0.001 | Epochs=10 | Accuracy=0.5
+HU=10 | LR=0.001 | Epochs=1000 | Accuracy=0.5
+HU=10 | LR=0.001 | Epochs=10000 | Accuracy=0.5
+HU=10 | LR=0.01 | Epochs=1 | Accuracy=0.5
+HU=10 | LR=0.01 | Epochs=10 | Accuracy=0.5
+HU=10 | LR=0.01 | Epochs=2000 | Accuracy=0.5
+HU=10 | LR=0.01 | Epochs=10000 | Accuracy=0.5
+HU=10 | LR=0.1 | Epochs=10 | Accuracy=0.5
+HU=10 | LR=0.1 | Epochs=1000 | Accuracy=0.5
+HU=10 | LR=0.1 | Epochs=2000 | Accuracy=0.5
+HU=10 | LR=1 | Epochs=1 | Accuracy=0.5
+HU=10 | LR=2 | Epochs=1 | Accuracy=0.5
+HU=10 | LR=2 | Epochs=10 | Accuracy=0.5
+HU=10 | LR=5 | Epochs=10 | Accuracy=0.5
+HU=3 | LR=5 | Epochs=1 | Accuracy=0.25
+HU=4 | LR=0.01 | Epochs=1000 | Accuracy=0.25
+HU=4 | LR=5 | Epochs=1 | Accuracy=0.25
+HU=5 | LR=0.01 | Epochs=1000 | Accuracy=0.25
+HU=10 | LR=0.1 | Epochs=1 | Accuracy=0.25
+HU=10 | LR=1 | Epochs=10 | Accuracy=0.25
