@@ -36,3 +36,7 @@ SIN
 ```
 python SIN.py
 ```
+
+## Report
+
+**You can read the full report here:** [Report PDF](report.pdf) 
